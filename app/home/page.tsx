@@ -1,8 +1,10 @@
 import React from 'react'
-
-const page = () => {
+import Navbar from '../components/Navbar'
+import delay from 'delay'
+const page = async() => {
+await delay(2000)
   return (
-    <div className=''>page</div>
+    <Navbar/>
   )
 }
 
